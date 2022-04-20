@@ -1,14 +1,17 @@
 package Esercitazione;
 
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class EsercizioRemove {
 
     public static void main(String[] args) {
+        LocalDate data = LocalDate.of(2022, Month.APRIL, 20);
+        
         List<String> lista = new ArrayList<>();
 
         lista.add("Gennaio");

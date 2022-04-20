@@ -3,7 +3,7 @@ package com.polis.movimenticonto;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class MovimentoContoCorrente {
+public abstract class MovimentoContoCorrente {
 
     private LocalDate data;
     private LocalTime orario;
@@ -13,6 +13,8 @@ public class MovimentoContoCorrente {
     public MovimentoContoCorrente(double importo) {
         this.importo = importo;
     }
+    
+    public abstract double speseMovimento();
     
     public LocalDate getData() {
         return data;

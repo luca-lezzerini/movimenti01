@@ -19,6 +19,7 @@ public class MovimentiConto11 {
         movimenti.add(new UscitaContoSenzaSpese(50));
         movimenti.add(new EntrataContoConSpese(570));
 //        movimenti.add(new MovimentoContoCorrente(570));
+        movimenti.add(new EntrataConto(570));
 
         // stampa elenco movimenti
         double saldo = 0.0;
